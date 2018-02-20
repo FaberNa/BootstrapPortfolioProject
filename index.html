@@ -8,35 +8,130 @@
   <title>HTML Portfolio</title>
 </head>
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Fabrizio Catapano</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Who am i </h1>
+          <p>Passionate software developer, i prefer Java lang, but work also with JS, Go actually i work in <a href="http://www.italiaonline.it/">ItaliaOnLine</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What i do</h1>
+          <p>During high school and University time i worked a lot on my thickness, and after in the world of work i realize many important works</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>My careers</h1>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class='marketing'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-hourglass'></span>
+        <h2> My Studies </h2>
+        <p>Studied principals of Modeling software and DB, lot of my interest is in OO language </p>
+      </div>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-tasks'></span>
+        <h2> My Works </h2>
+        <p>Studied principals of Modeling software and DB, lot of my interest in </p>
+      </div>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-random'></span>
+        <h2> My Works </h2>
+        <p>Studied principals of Modeling software and DB, lot of my interest in </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <h3>
+        <p>Keep in touch with <a href="mailto:faber.cata@gmail.com">mail</a> or <a href="https://www.linkedin.com/in/fabrizio-catapano-5326b886">linkedin</a> </p>
+      </h3>
+    </div>
+  </footer>
+</div>
 
   <!--
     Previous project placeholder begins
   -->
-  <div class="header">
-    <h1>Morgan McCircuit</h1>
-    <h2>I write code</h2>
+  <div class='header'>
+  <h1> Fabrizio Catapano </h1>
+  <h2> Software Developer</h2>
+  <div class='tagline'>
+    <h3>How am i</h3>
+    <p></a></p>
   </div>
+</div>
+<div class='skills'>
+  <h3> My powers </h3>
+  <p> During high school and University time i worked a lot on my thickness, and after in the world of work i realize many important works</p>
+  <ul>
+    <li> Java</li>
+    <li> JS </li>
+    <li> HTML, CSS </li>
+    <li> Continuos Integration and Development </li>
+    <li> Automating test </li>
+  </ul>
+</div>
+Welcome to the HTML Portfolio Project
 
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
-  </div>
-
-
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </div>
-
-  <div class="contact">
-    <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
-  </div>
+<div class='contact'>
+  <h3> Contact</h3>
+  <p>contact me at faber.catapano@gmail.com or through <a href="https://www.linkedin.com/in/fabrizio-catapano-5326b886">linkedin</a></p>
+</div>
   <!--
     Previous project placeholder ends
     (unused pieces will be deleted at the last task)
